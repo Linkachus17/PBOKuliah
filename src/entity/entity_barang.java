@@ -11,6 +11,14 @@ public class entity_barang {
         System.out.println("kode barang     :"+this.kodeBarang);
         System.out.println("nama barang     :"+this.nama);
     }
+
+    public int getKodeBarang() {
+        return kodeBarang;
+    }
+
+    public String getNama() {
+        return nama;
+    }
 }
 
 
