@@ -24,6 +24,7 @@ public class entity_kasir {
         return nip;
     }
 
+
     public void setPass(String pass) {
         this.pass = pass;
     }

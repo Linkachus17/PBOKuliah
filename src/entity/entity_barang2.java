@@ -27,4 +27,7 @@ public class entity_barang2 extends entity_barang{
         System.out.println("stok barang     :"+this.stok);
     }
 
+    public int getHarga() {
+        return harga;
+    }
 }

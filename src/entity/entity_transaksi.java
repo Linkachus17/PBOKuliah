@@ -13,6 +13,14 @@ public class entity_transaksi {
         this.total = total;
     }
 
+    public int getId_transaksi() {
+        return id_transaksi;
+    }
+
+    public void setTotal(int total) {
+        this.total = total;
+    }
+
     public void cetak()
     {
         System.out.println("id transaksi    :"+this.id_transaksi);

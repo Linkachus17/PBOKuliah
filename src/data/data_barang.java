@@ -32,4 +32,20 @@ public class data_barang {
             }
         }
     }
+
+    public entity_barang2 get_objBarang(int index) {
+        return data_barang.get(index);
+    }
+
+    public entity_barang2 searchByid(int id)
+    {
+        entity_barang2 temp = null;
+        for (entity_barang2 barang:this.data_barang) {
+            if (id==barang.getKodeBarang())
+            {
+                temp = barang;
+            }
+        }
+        return temp;
+    }
 }
